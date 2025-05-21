@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background: #fdfdfd;
+  color: #111;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+main {
+  flex: 1;
+}
+
+#map {
+  width: 100%;
+  height: 85vh;
+  border-top: 1px solid #ddd;
+}
+
+.legend {
+  background: white;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.4;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  border: 1px solid #ccc;
+}
+
+.legend h4 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.legend i {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
