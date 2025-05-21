@@ -5,11 +5,11 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution: 
 L.marker([40.73, -73.93]).addTo(map).bindPopup("Central Point of NYC").openPopup();
 
 const boroughColors = {
-  "MANHATTAN": "#d62728",
-  "BROOKLYN": "#1f77b4",
-  "QUEENS": "#2ca02c",
-  "BRONX": "#ff7f0e",
-  "STATEN ISLAND": "#9467bd"
+  "Manhattan": "#d62728",
+  "Brooklyn": "#1f77b4",
+  "Queens": "#2ca02c",
+  "Bronx": "#ff7f0e",
+  "Staten Island": "#9467bd"
 };
 
 fetch('raw_data/accidents.geojson')
