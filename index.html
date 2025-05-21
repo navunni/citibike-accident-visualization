@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CitiBike Atlas: NYC Accidents</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CitiBike Map: NYC Accidents</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
+<body>
+  <header>
+    <h1>Citibike Traffic Accident Map (New York City)</h1>
+    <p class="subtitle"> An open-data visualization of NYC crash data in 2020. The data for this project can be found <a href="https://citibikenyc.com/system-data">here</a>. </p>
+  </header>
+
+  <main>
+    <div id="map"></div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="map.js"></script>
+</body>
 </html>
