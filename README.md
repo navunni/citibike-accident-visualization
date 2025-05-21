@@ -13,3 +13,7 @@ The goal of this visualization is to:
 - Plot thousands of accident points across NYC. 
 - Lets users zoom, pan, and click to explore by borough. 
 - Use open data!
+
+---
+
+License: [MIT](LICENSE)
