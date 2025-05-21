@@ -1,2 +1,9 @@
 .DS_Store
-.ipynb_checkpoints
+venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+*.code-workspace
+node_modules/
+dist/
