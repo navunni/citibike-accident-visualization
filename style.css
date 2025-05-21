@@ -2,5 +2,15 @@ body {
     margin: 0;
     font-family: 'Space Mono', monospace;
     background: #f4f4f4;
-    text-align: center
+    text-align: center;
+}
+
+h1 {
+    margin: 16px;
+}
+
+#map {
+    height: 90vh;
+    width: 100%;
+    border-top: 2px solid #ccc;
 }
